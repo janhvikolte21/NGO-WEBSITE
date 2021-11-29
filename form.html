@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DONATION FORM</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="bg-contact2" style="background-image: url('images/bg-01.jpg');">
+		<div class="container-contact2">
+			<div class="wrap-contact2">
+				<form class="contact2-form validate-form" method="POST" action="payscript.php">
+					<span class="contact2-form-title">
+
+					   DONATION FORM
+					</span>
+
+					<div class="wrap-input2 validate-input" data-validate="Name is required">
+						<input class="input2" id="fullname" type="text" name="fullname">
+						<span class="focus-input2" data-placeholder="NAME"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input2" id="email" type="text" name="email">
+						<span class="focus-input2" data-placeholder="EMAIL"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate = "Valid phone number is required.">
+						<input class="input2" id="phoneno" type="tel" name="phoneno">
+						<span class="focus-input2" data-placeholder="PHONE NUMBER"></span>
+					</div>
+
+					<div class="wrap-input2 validate-input" data-validate = "Enter Amount">
+						<input class="input2" id=" amount" type="text" name="amount">
+						<span class="focus-input2" data-placeholder="AMOUNT"></span>
+					</div>
+
+						<div><input class="input2 hidden" id="paymentid" type="hidden" name="paymentid"></div>
+
+					<div class="wrap-input2 validate-input" data-validate = "Enter date">
+						<input class="input2" id="date" type="date" name="date">
+						<span class="focus-input2" data-placeholder="DATE"></span>
+					</div>
+					
+
+					
+							<div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_IQgTuuHsyyDVS9/view" data-text="Donate Now" data-color="#f34a92" data-size="large"> 
+</div>
+						</div>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+<script type='text/javascript'>
+                                (function(){
+      var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+      if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+      s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+      rzp && rzp.init && rzp.init()}})();
+
+
+                            </script>
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-23581568-13');
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0; box-sizing: border-box;
+font-family: 'Josefin Sans', sans-serif; extra-space-l: 20px;}
+
+.carousel-inner img {
+	width: 100%;
+	height: 90vh;
+}
+
+.aboutimg {
+ width: 90%;
+ height: 300px !important;
+ margin-left: 20px;
+}
+
+.galleryimg{
+width: 100%;
+height: 200px !important;
+padding: 20px;
+margin: 10px;
+
+}
+
+.card-img-top {
+	height: 250px !important;
+}
+
